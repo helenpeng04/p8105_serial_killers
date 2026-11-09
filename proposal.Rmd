@@ -1,0 +1,46 @@
+---
+title: "P8105 Final Project Proposal"
+output: github_document
+---
+
+Team Members (Uni \#):
+
+- Helen Peng (hwp2110)
+
+- Astrid Xu (xx2519)
+
+- Hyder Said (hs3653)
+
+- Lin Cao (lc4152)
+
+- Yuyi Lin (ysl2122)
+
+**Project Title:** Patterns of Serial Killers: A Global Analysis of Offender Characteristics, Victim Counts, and Temporal Trends
+
+**Motivation:**
+
+Serial killers often attract public attention through individual high-profile cases, but examining these cases individually may overlook broader patterns across documented serial homicides, especially in the United States, which is ranked No. 1 in serial killers ([Chatterjee, 2026](https://www.visualcapitalist.com/ranked-countries-with-the-most-serial-killers/)). Our project aims to examine historically documented serial killers as a collective group. Are you curious whether advances in criminal investigation and public safety have deterred potential serial killers and reduced their numbers? Are serial killers being caught more quickly, resulting in fewer victims? And as technology continues to advance, are serial killers also “evolving”?
+
+**Intended final products:**
+
+We will produce a written report regarding the research questions, data collection, and data cleaning as well as the analyses and visualizations for the key findings. We will subsequently create a website where we showcase this data and where we will have a two-minute screencast where we narrate our website and its findings. We will also provide a link to our shared github repository, which will be maintained throughout the final project period. 
+
+**Anticipated data sources:**
+
+Our primary data souce will be the Serial Killers Dataset compiled from wikipedia records. The dataset has \~500 documented serial killers across the globe and includes data regarding geography, gender of killer, years active, and number of victims (confirmed and suspected), as well as some data regarding profession (e.g. medical professionals). 
+
+<https://en.wikipedia.org/wiki/List_of_serial_killers_by_number_of_victims>
+
+**The planned analyses / visualizations / coding challenges:**
+
+- Geographic Trends: world map displaying the geographic distribution of serial killer’s place of birth
+
+- Temporal Trends: bar charts showing the number of recorded serial killers by decade of active start year
+
+- Offender characteristics: comparative visualizations of victim counts across different offender characteristics such as gender, whether offenders operated alone, and occupational background. 
+
+- Statistical analyses: Descriptive statistics, group comparisons, exploratory regression analyses to identify factors associated with victim count
+
+- Anticipated coding challenges include scraping and cleaning the data, standardizing the different variables (e.g. location, time), handling missing data (e.g. not all victim counts are known), and developing the interactive plots/visualizations
+
+**Planned timeline:** November 13: Submit project proposal; November 16-20: Project review meeting; December 12: Submit final report, project website, screencast, and peer assessments; December 17: In-class project discussion.

@@ -1,0 +1,45 @@
+---
+title: "P8105 Final Project Proposal (Version 2)"
+output: github_document
+---
+
+**Team Members (Uni \#):**
+
+- Helen Peng (hwp2110)
+
+- Astrid Xu (xx2519)
+
+- Hyder Said (hs3653)
+
+- Lin Cao (lc4152)
+
+- Yuyi Lin (ysl2122)
+
+**Project Title:** Food Safety Violations in NYC Public School Cafeterias
+
+**Motivation:**
+
+Students and families rely on school cafeterias for breakfast and lunch, but they rarely see how that food is stored, handled, or prepared. Food safety inspections can identify problems such as unsafe holding temperatures, inadequate handwashing facilities, or signs of pests before they lead to illness. Knowing which violations are most common can help schools identify where to focus their food safety efforts. We will use 2025-2026 NYC public school cafeteria inspection records to examine which critical violations were cited most often and how the proportion of inspections with at least one critical violation varied across boroughs.
+
+**Intended final products:**
+
+We will produce a written report regarding the research questions, data collection, and data cleaning as well as the analyses and visualizations for the key findings. We will create a website to showcase this data, where we will have a two-minute screencast narrating our findings. We will also maintain a shared github repository, with links shared on the website.
+
+**Anticipated data sources:**
+
+We will use the DOHMH School Cafeteria Inspections (2020-2026) from NYC Open Data. It contains inspection records for permitted cafeterias in NYC’s public, private, and parochial schools. We plan to use cafeteria ID, inspection dates, boroughs, latitude and longitude, violation codes, and severity levels to map inspected cafeterias, identify common violations and examine how the share of inspections with critical violations varies by borough and year. \
+The link: <https://data.cityofnewyork.us/Health/DOHMH-School-Cafeteria-Inspections-2020-Present-/5ery-qagt/about_data>
+
+**The planned analyses / visualizations / coding challenges:**
+
+- **Geographic Trends**: Map NYC school cafeterias inspected in 2025 using latitude and longitude. Show each cafeteria once, color points by borough, and summarize the number of cafeterias inspected in each borough
+
+- **Temporal Trends**: determine change in inspection status (code and level variables) by borough and school type over time.
+
+- **Borough and school type comparisons**: Use grouped summaries and bar charts to compare the percentage of inspections with a critical violation across boroughs and cafeteria types
+
+- **Statistical analyses**:  Descriptive statistics, group comparisons (by borough and school type) of violation counts and types, percentage of inspections with at least one critical violation, most common violation types, monthly trends
+
+- **Data cleaning in R:** Combine rows by cafeteria ID and inspection date, retain inspections with no cited violations, use the data dictionary to classify severity, and check coordinates before mapping
+
+**Planned timeline:** November 13: Submit project proposal; November 16-20: Project review meeting; December 12: Submit final report, project website, screencast, and peer assessments; December 17: In-class project discussion.

@@ -3,7 +3,7 @@ title: "P8105 Final Project Proposal"
 output: github_document
 ---
 
-Team Members (Uni \#):
+**Team Members (Uni \#):**
 
 - Helen Peng (hwp2110)
 
